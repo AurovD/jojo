@@ -1,0 +1,17 @@
+{
+  "name": "server_app",
+  "version": "0.0.1",
+  "description": "\"empty\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "dima"
+  ],
+  "author": "dima",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
