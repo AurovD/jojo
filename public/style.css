@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+}
+.wrapper {
+    height: 100vh;
+    background: lightskyblue url("/img/logo.svg") no-repeat center / contain;
+
+}
