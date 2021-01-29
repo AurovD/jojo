@@ -10,15 +10,16 @@ const pool = new Pool({
 
 
 router.get("/test", (req,res) => {
+	console.log("test");
     pool.query('SELECT * FROM users', (err, result) => {
-        if (err) {
-            throw err;
-        } else if (result) {
-            res.send({
-                "msg": "ok"
-            });
+      if (err) {
+           throw err;
+      } else if (result) {
+           res.send({
+               "msg": "ok"
+           });
         }
-    });
+   });
 });
 
 module.exports = router;
