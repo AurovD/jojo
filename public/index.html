@@ -10,5 +10,16 @@
     <div class="wrapper">
 
     </div>
+    <script>
+        (async () => {
+            let res = await fetch("http://localhost:4000/api/test", {
+                method: "GET",
+                headers: {
+                    "Accept": "application/json",
+                    "Content-Type": "application/json"
+                }
+            });
+        })();
+    </script>
 </body>
 </html>
