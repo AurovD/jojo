@@ -19,6 +19,10 @@
                     "Content-Type": "application/json"
                 }
             });
+            let data = await res.json();
+            if(data) {
+                console.log(data);
+            }
         })();
     </script>
 </body>

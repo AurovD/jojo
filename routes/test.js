@@ -16,6 +16,7 @@ router.get("/test", (req,res) => {
       if (err) {
            throw err;
       } else if (result) {
+          console.log("jhkhl")
            res.send({
                "msg": "ok"
            });
